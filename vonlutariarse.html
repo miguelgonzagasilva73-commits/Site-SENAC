@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Voluntariado — VestPet</title>
+<meta name="description" content="Junte-se à rede de voluntários da VestPet." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><span class="logo-mark">♥</span> vest<b>pet</b></a>
+    <nav class="nav">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="doacoes.html">Doações</a>
+      <a href="voluntarie-se.html" class="active">Voluntariado</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <a href="doacoes.html" class="btn btn-primary btn-sm">Doar agora</a>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container grid-2">
+      <div>
+        <span class="eyebrow">Voluntariado</span>
+        <h1 style="margin-top: 0.75rem;">Doe seu tempo, sua técnica, seu carinho.</h1>
+        <p style="margin-top: 1.25rem; color: var(--muted);">Não é preciso ter experiência. Temos mutirões mensais com aulas de costura e tricô para iniciantes.</p>
+
+        <ul class="list-soft">
+          <li><b>Costura e tricô</b><span>Produza peças em casa ou nos encontros presenciais.</span></li>
+          <li><b>Logística e coleta</b><span>Ajude a receber, organizar e distribuir doações.</span></li>
+          <li><b>Divulgação</b><span>Cuide das redes sociais, fotografia e parcerias.</span></li>
+        </ul>
+      </div>
+
+      <form class="form" onsubmit="event.preventDefault(); this.innerHTML='<div style=\'padding:1.5rem;background:rgba(184,205,176,0.4);border-radius:16px;\'>Obrigada! 🐾 Recebemos sua inscrição.</div>';">
+        <h2 style="font-size: 1.5rem;">Quero me inscrever</h2>
+        <p style="font-size: 0.85rem; color: var(--muted); margin-top: 0.25rem;">Responderemos em até 3 dias úteis.</p>
+
+        <div class="field"><label>Nome completo</label><input type="text" required /></div>
+        <div class="field"><label>E-mail</label><input type="email" required /></div>
+        <div class="field"><label>Cidade / Estado</label><input type="text" required /></div>
+        <div class="field">
+          <label>Como gostaria de ajudar?</label>
+          <select required>
+            <option value="">Selecione…</option>
+            <option>Costura / tricô</option>
+            <option>Logística e coleta</option>
+            <option>Divulgação e redes</option>
+            <option>Outro</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar inscrição</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="logo"><span class="logo-mark">♥</span> vest<b>pet</b></a>
+      <p class="tag-line">Roupas feitas com amor para aquecer animais resgatados.</p>
+    </div>
+    <div><h4>Navegação</h4><ul>
+      <li><a href="index.html">Início</a></li><li><a href="sobre.html">Sobre</a></li>
+      <li><a href="doacoes.html">Doações</a></li><li><a href="voluntarie-se.html">Voluntariado</a></li>
+      <li><a href="contato.html">Contato</a></li></ul></div>
+    <div><h4>Contato</h4><ul>
+      <li>contato@vestpet.org</li><li>(11) 99999-0000</li><li>São Paulo · SP</li></ul></div>
+  </div>
+  <div class="footer-bottom">© 2026 VestPet — Todos os direitos reservados.</div>
+</footer>
+</body>
+</html>

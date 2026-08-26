@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Doações — VestPet</title>
+<meta name="description" content="Como doar para a VestPet: PIX, roupas, cobertores e pontos de coleta." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><span class="logo-mark">♥</span> vest<b>pet</b></a>
+    <nav class="nav">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="doacoes.html" class="active">Doações</a>
+      <a href="voluntarie-se.html">Voluntariado</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <a href="doacoes.html" class="btn btn-primary btn-sm">Doar agora</a>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div style="max-width: 36rem;">
+        <span class="eyebrow">Como ajudar</span>
+        <h1 style="margin-top: 0.75rem;">Cada doação vira calor.</h1>
+        <p style="margin-top: 1.25rem; color: var(--muted); font-size: 1.1rem;">
+          Existem várias formas de apoiar a VestPet. Escolha a que faz mais sentido para você.
+        </p>
+      </div>
+
+      <div class="donate-grid">
+        <!-- PIX -->
+        <div class="card-primary">
+          <div style="font-size: 1.5rem;">💸</div>
+          <h2>Doação via PIX</h2>
+          <p style="margin-top: 0.75rem; opacity: 0.9; font-size: 0.92rem;">A forma mais rápida de ajudar. 100% do valor vira material e peças para os animais.</p>
+          <div class="pix-box">
+            <code id="pix">doe@vestpet.org</code>
+            <button class="btn btn-light btn-sm" onclick="navigator.clipboard.writeText('doe@vestpet.org');this.textContent='Copiado!'">Copiar</button>
+          </div>
+          <ul>
+            <li>R$ 15 — meias térmicas para 1 animal</li>
+            <li>R$ 25 — 1 suéter completo</li>
+            <li>R$ 60 — kit de inverno (suéter + cobertor)</li>
+          </ul>
+        </div>
+
+        <!-- Materiais -->
+        <div class="card" style="padding: 2rem;">
+          <div class="icon">👕</div>
+          <h2 style="margin-top: 1.25rem;">Roupas e tecidos</h2>
+          <p style="margin-top: 0.75rem; color: var(--muted); font-size: 0.92rem;">Aceitamos roupas em bom estado, cobertores, mantas, lã, novelos, agulhas e tecidos.</p>
+          <ul style="list-style: none; margin-top: 1.25rem; display: grid; gap: 0.5rem; color: var(--muted); font-size: 0.9rem;">
+            <li>✓ Moletons e blusas de tricô infantis ou adultas</li>
+            <li>✓ Cobertores e mantas térmicas</li>
+            <li>✓ Linhas, lãs e novelos novos ou pouco usados</li>
+            <li>✓ Tecidos de algodão e fleece</li>
+          </ul>
+        </div>
+
+        <!-- Pontos -->
+        <div class="card full" style="padding: 2rem;">
+          <div class="icon">📦</div>
+          <h2 style="margin-top: 1.25rem;">Pontos de coleta</h2>
+          <div class="poi-grid">
+            <div class="poi"><p>P3</p><p>Praça de alimentação 3 do Senac</p></div>
+            <div class="poi"><p>Ala C</p><p>Corredor da ala C</p></div>
+            <div class="poi"><p>teletubbies</p><p>Lugar ao livre de lazer do Senac</p></div>
+          </div>
+          <p style="margin-top: 1.5rem; font-size: 0.78rem; color: var(--muted);">
+            Quer ser um ponto de coleta na sua área? Fale com a gente em
+            <a href="mailto:contato@vestpet.org" style="color: var(--primary); text-decoration: underline;">contato@vestpet.org</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="logo"><span class="logo-mark">♥</span> vest<b>pet</b></a>
+      <p class="tag-line">Roupas feitas com amor para aquecer animais resgatados.</p>
+    </div>
+    <div><h4>Navegação</h4><ul>
+      <li><a href="index.html">Início</a></li><li><a href="sobre.html">Sobre</a></li>
+      <li><a href="doacoes.html">Doações</a></li><li><a href="voluntarie-se.html">Voluntariado</a></li>
+      <li><a href="contato.html">Contato</a></li></ul></div>
+    <div><h4>Contato</h4><ul>
+      <li>contato@vestpet.org</li><li>(11) 99999-0000</li><li>São Paulo · SP</li></ul></div>
+  </div>
+  <div class="footer-bottom">© 2026 VestPet — Todos os direitos reservados.</div>
+</footer>
+</body>
+</html>
